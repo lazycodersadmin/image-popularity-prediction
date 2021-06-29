@@ -185,7 +185,7 @@ function Home({ width }) {
                 >
                   <img src={image.url} alt={image.path} />
                   <GridListTileBar
-                    title={`${image.popularity}/8`}
+                    title={`${image.popularity}/10`}
                     titlePosition="top"
                     actionIcon={
                       image.popularity == maxPopular ? (
