@@ -102,6 +102,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <a
           className={classes.brandLink}
           href="https://www.instagram.com/lazy.coders/"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           @lazy.coders
         </a>
